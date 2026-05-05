@@ -25,8 +25,8 @@ public class EmployeeSalaryService {
                     .average()
                     .orElse(0);
 
-            double min = avg * (20/100); // Min salary should be > 20% of their subordinates
-            double max = avg * (50/100); // Max salary should be < 50% of their subordinates
+            double min = avg + avg * 0.20; // Min salary should be > 20% of their subordinates
+            double max = avg + avg * 0.50; // Max salary should be < 50% of their subordinates
 
             if (manager.getSalary() < min) {
 //                System.out.println(manager.getFullName() +
