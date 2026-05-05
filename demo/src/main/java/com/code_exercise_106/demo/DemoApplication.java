@@ -30,10 +30,10 @@ public class DemoApplication {
 		System.out.println("The CEO of the organization - " + ceo.getFullName());
 
 		// 4. Run validations
-		System.out.println("\n=== Reporting Depth ===");
+		//System.out.println("\n=== Reporting Depth ===");
 		hierarchyService.checkReportingDepth(ceo);
 
-		System.out.println("\n=== Salary Validation ===");
+		//System.out.println("\n=== Salary Validation ===");
 		salaryService.validateSalaries();
 
 	}
