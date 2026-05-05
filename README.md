@@ -70,14 +70,14 @@ If not, it logs:
 ## Input Format
 
 CSV format:
-Id,FirstName,LastName,Salary,ManagerId
+- Id,FirstName,LastName,Salary,ManagerId
 
 Example:
-123,Joe,Doe,60000,
-124,Martin,Chekov,45000,123
-125,Bob,Ronstad,47000,123
-300,Alice,Hasacat,50000,124
-305,Brett,Hardleaf,34000,300
+- 123,Joe,Doe,60000,
+- 124,Martin,Chekov,45000,123
+- 125,Bob,Ronstad,47000,123
+- 300,Alice,Hasacat,50000,124
+- 305,Brett,Hardleaf,34000,300
 
 - `ManagerId` is empty for the CEO  
 - Every other employee must have a valid manager 
